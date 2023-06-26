@@ -1,7 +1,39 @@
 //GLOBAL
 
+// let variable;
 
-// const a = 4;
+
+// const objConfig = {
+//     '401': 'Error! Wrnog user !',
+//     '404': 'Not found!'
+// }
+
+// const errorText = objConfig[serverError];
+
+
+// if(...){
+//     variable = 'asdasd'
+// }else{
+//     variable = 23232
+// }
+
+// const variable = ... ? 'adsad' : 232323
+
+
+const obj1 = {
+    a: 1,
+    b: [1,2,3]
+}
+
+
+const obj2 = JSON.parse(JSON.stringify(obj1));
+
+
+
+
+
+
+const a = 4;
 
 //FUNCTION
 function showA(){
@@ -19,7 +51,9 @@ function showA(){
 
 }
 
-// showA()
+// remove.addEventListener('click', function(){this.remove()})
+
+showA()
 
 
 function closure(){
